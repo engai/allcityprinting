@@ -12,8 +12,6 @@ html, body {
 
 
 /* Header */
-
-
 .header{
   background-color: rgba(0, 0, 0, 0.7);
   position: fixed;
@@ -52,7 +50,6 @@ html, body {
 }
 
 /* Jumbotron */
-
 .jumbotron {
   height: 800px;
   background: url(images/city1.jpg) no-repeat center center fixed; 
@@ -88,10 +85,9 @@ html, body {
   font-size: 30px;
   margin-bottom: 75px;
   text-transform: uppercase;
-  
 }
-/* Learn More */
 
+/* Button */
 .button
 {
   text-transform: uppercase;
@@ -177,7 +173,6 @@ html, body {
 }
 
 /* About */
-
 .about{
   height: 300px;
 }
