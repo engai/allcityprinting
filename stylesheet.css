@@ -1,0 +1,283 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans','Raleway', Myriad Pro, sans-serif;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+
+/* Header */
+
+
+.header{
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  margin: 0px 0px 0px 0px;
+  width: 100%;
+  z-index: 1;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Nav Bar */
+.nav {
+  font-family: 'Raleway';
+  color: white;
+  display: inline-block;
+}
+
+.nav img{
+  width: 48px;
+  height: 25px;
+}
+
+.nav li {
+  font-size: 18px;
+  padding: 0px 10px 0px 10px;
+  font-weight: 100;
+  list-style-type: none;
+  display: inline-block;
+}
+
+.nav a:hover{
+  color:orange;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  height: 800px;
+  background: url(images/city1.jpg) no-repeat center center fixed; 
+  background-size: cover;
+}
+
+
+/* Main */
+.main {
+  font-family: 'Raleway';
+  position: relative;
+  top: 175px;
+  text-align: center;
+}
+
+.main h1 {
+  color: #ffffff;
+  width: 500px;
+  height: 175px;
+  border: 2px solid white;
+  padding: 20px;
+  font-weight: 600;
+  font-size: 70px;
+  margin: 0 auto;
+  margin-bottom: 75px;
+  text-transform: uppercase;
+  
+}
+
+.main p{
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 75px;
+  text-transform: uppercase;
+  
+}
+/* Learn More */
+
+.button
+{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #0C5;
+
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  
+  margin: 5em auto;
+  
+  position: relative; 
+  top:0; right:0; bottom:0; left:0;
+  
+  padding: 20px;
+  width: 220px;
+  height:30px;
+
+  background: orange;
+  border: 1px solid #ffffff;
+  color: #FFF;
+  overflow: hidden;
+  
+  transition: all 0.5s;
+}
+
+.button:hover, .button:active 
+{
+  text-decoration: none;
+  color: orange;
+  border-color: orange;
+  background: #FFF;
+}
+
+.button span 
+{
+  display: inline-block;
+  position: relative;
+  padding-right: 0;
+  
+  transition: padding-right 0.5s;
+}
+
+.button span:after 
+{
+  content: ' ';  
+  position: absolute;
+  top: 0;
+  right: -18px;
+  opacity: 0;
+  width: 10px;
+  height: 10px;
+  margin-top: -10px;
+
+  background: rgba(0, 0, 0, 0);
+  border: 3px solid #FFF;
+  border-top: none;
+  border-right: none;
+
+  transition: opacity 0.5s, top 0.5s, right 0.5s;
+  transform: rotate(-45deg);
+}
+
+.button:hover span, .button:active span 
+{
+  padding-right: 30px;
+}
+
+.button:hover span:after, .button:active span:after 
+{
+  transition: opacity 0.5s, top 0.5s, right 0.5s;
+  opacity: 1;
+  border-color: orange;
+  right: 0;
+  top: 50%;
+}
+
+/* Space 1 */
+#space1{
+  height:20px;
+}
+
+/* About */
+
+.about{
+  height: 300px;
+}
+
+.about h2{
+  padding-top: 35px;
+  font-weight: normal;
+  font-size: 28px;
+  text-decoration: underline;
+}
+
+.about p{
+  width: 400px;
+  font-size: 15px;
+}
+
+.about img {
+  width: 350px;
+  height: 320px;
+  float: right;
+  margin-right: 60px;
+}
+
+/* Services */
+
+.services{
+  height: 300px;
+}
+.services h2{
+  padding-top: 35px;
+  font-weight: normal;
+  font-size: 28px;
+  text-decoration: underline;
+}
+.services p{
+  font-size: 15px;
+}
+
+.services img{
+  width: 460px;
+  height: 308px;
+  float: right;
+}
+
+/* Equipment */
+.equipment{
+  height: 300px;
+}
+.equipment h2{
+  padding-top: 35px;
+  font-weight: normal;
+  font-size: 28px;  
+  text-decoration: underline;
+}
+.equipment p{
+  font-size: 15px;
+  width: 500px;
+}
+
+.equipment img{
+  width: 460px;
+  height: 308px;
+  float: right;
+}
+
+/* Space 2 */
+#space2{
+  height: 60px;
+}
+
+/* Portfolio */
+.portfolio-title{
+  padding-top: 5px;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.portfolio{
+  height: 650px;
+  background: url(images/city2.jpg) no-repeat center center fixed; 
+  background-size: cover;
+  
+}
+.portfolio h2{
+  font-weight: normal;
+  font-size: 28px;
+  text-decoration: underline;
+}
+
+/* Contact */
+.contact{
+  text-align: center;
+  height: 275px;
+  background-color: white;
+}
+
+.contact h2{
+  font-weight: normal;
+  font-size: 28px;
+  text-decoration: underline;
+}
+
