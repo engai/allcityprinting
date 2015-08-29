@@ -61,7 +61,7 @@ html, body {
 .main {
   font-family: 'Raleway';
   position: relative;
-  top: 175px;
+  top: 190px;
   text-align: center;
 }
 
@@ -69,12 +69,13 @@ html, body {
   color: #ffffff;
   width: 500px;
   height: 175px;
-  border: 2px solid white;
-  padding: 20px;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+  padding: 10px;
   font-weight: 600;
   font-size: 70px;
   margin: 0 auto;
-  margin-bottom: 75px;
+  margin-bottom: 100px;
   text-transform: uppercase;
   
 }
